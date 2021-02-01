@@ -1,3 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #099FFF;
+    background-color: #000f3f;
+}
+
+.neon-botton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.neon-link:link, .neon-link:visited {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
 }
